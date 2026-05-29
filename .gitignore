@@ -1,0 +1,42 @@
+# Secrets
+.env
+*.key
+*.pem
+
+
+# Magento generated
+src/generated/
+src/var/cache/
+src/var/page_cache/
+src/var/view_preprocessed/
+src/pub/static/_cache/
+src/pub/static/adminhtml/
+src/pub/static/frontend/
+src/pub/media/catalog/product/cache/
+src/var/session/
+src/var/log/
+src/var/report/
+
+
+#Static deploy artifacts
+
+src/pub/static/version*
+src/pub/media/catalog/product/cache/
+src/pub/media/tmp/
+
+# Magento env
+src/app/etc/env.php
+
+# Logs
+*.log
+
+# Docker volumes/data
+mysql/data/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Git
+.git
