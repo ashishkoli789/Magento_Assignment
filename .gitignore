@@ -16,7 +16,7 @@ src/pub/media/catalog/product/cache/
 src/var/session/
 src/var/log/
 src/var/report/
-
+src/var/composer_home/
 
 #Static deploy artifacts
 
