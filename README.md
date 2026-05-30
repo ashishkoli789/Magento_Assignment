@@ -26,6 +26,15 @@ The environment is designed to simulate a real-world production deployment with:
 * Redis-backed caching and sessions
 * automated provisioning
 
+The stack includes production-oriented operational considerations such as:
+
+* Docker healthchecks
+* restart policies
+* persistent volumes
+* Redis-backed caching/session storage
+* memory-constrained OpenSearch JVM tuning
+* isolated container networking
+
 The repository is reproducible on a fresh EC2 instance using Docker Compose.
 
 ---
