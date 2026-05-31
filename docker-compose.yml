@@ -161,7 +161,7 @@ services:
     environment:
       PMA_HOST: mysql
       PMA_PORT: 3306
-
+      PMA_ABSOLUTE_URI: https://test.dyna.com/phpmyadmin/
     depends_on:
       - mysql
     networks:
